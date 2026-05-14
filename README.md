@@ -3,7 +3,7 @@ Part 2 in my project of Information theory in semester 4 in PTIT
 # Thông tin môn học
 - Môn: Lý thuyết thông tin PTIT.
 - Giảng viên: Phạm Văn Sự.
-- Mã lớp: Nhóm 4 lớp CT01.
+- Mã lớp: Nhóm 8 lớp CT01.
 
 # Thành viên
 - Bùi Quốc Lập - B24DCAT161.

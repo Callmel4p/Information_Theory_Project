@@ -1,5 +1,15 @@
 # Information_Theory_Project
 Part 2 in my project of Information theory in semester 4 in PTIT
+# Thông tin môn học
+- Môn: Lý thuyết thông tin PTIT.
+- Giảng viên: Phạm Văn Sự.
+- Mã lớp: Nhóm 4 lớp CT01.
+
+# Thành viên
+- Bùi Quốc Lập - B24DCAT161.
+- Nguyễn Như Sáng - B24DCAT243.
+- Vũ Minh Tân - B24DCAT247.
+  
 # Đề bài chung
 Sử dụng ngôn ngữ lập trình C/C++ hoàn thành bài tập theo yêu cầu. Mỗi nhóm chỉ có một đề. Nhóm tập hợp và thực hiện phân công. Chương trình được lập trình sao cho có thể kiểm thử được dữ liệu của các ví dụ trong môn học và theo chuẩn ICPC. Bonus cho các nhóm xây dựng ứng dụng hoàn chỉnh cho phép lựa chọn input chuẩn nhưng cho phép lựa chọn output theo dạng đầy đủ lời giải tự luận, sinh kết quả cho các câu trắc nghiệm.
 

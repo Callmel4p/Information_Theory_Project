@@ -29,6 +29,14 @@ Xây dựng class bit, vector từ mã nhị phân và các helper class khác n
 - `icpc`: executable tạo từ `main_icpc.cpp`, có được bằng cách biên dịch `g++ main_icpc.cpp Bit.cpp BinaryVector.cpp Polynomial.cpp -o icpc`.
 - Folder `icpc_tests` chứa các test case dưới dạng ICPC.
 
+Lưu ý: `main` và `main_icpc` trong project là ELF file. Nếu muốn dùng trong window hãy compile lại file tại chính máy window bằng các lệnh sau.
+```bash
+chcp 65001 // chuyển sang UTF-8 để tránh lỗi tiếng việt.
+g++ main.cpp Bit.cpp BinaryVector.cpp Polynomial.cpp -o main.exe
+g++ main_icpc.cpp Bit.cpp BinaryVector.cpp Polynomial.cpp -o icpc.exe
+./main.exe
+./main_icpc.exe
+```
 # Ý tưởng giải quyết
 ## Phần 1: Bit class
 Xây dựng class bit bằng `Bit.h` chứa những khai báo và `Bit.cpp` là triển khai của những khai báo thuộc tính của đối tượng bit.

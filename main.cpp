@@ -260,19 +260,43 @@ void runCheck() {
     int n, k;
 
     cout << "Nhập thông số mã C(n, k):\n";
-
-    cout << "  n = ";
-    cin >> n;
-
-    cout << "  k = ";
-    cin >> k;
-
-    if (n <= 0 || k <= 0 || k >= n) {
-
-        cerr << "\nLỗi: cần 0 < k < n.\n";
-
+    
+        cout << "  n = ";
+    
+    if (!(cin >> n)) {
+    
+        cerr << "\nLỗi: n phải là số nguyên.\n";
+    
+        cin.clear();
+        cin.ignore(10000, '\n');
+    
         shortSleep();
-
+    
+        return;
+    }
+    
+    cout << "  k = ";
+    
+    if (!(cin >> k)) {
+    
+        cerr << "\nLỗi: k phải là số nguyên.\n";
+    
+        cin.clear();
+        cin.ignore(10000, '\n');
+    
+        shortSleep();
+    
+        return;
+    }
+    
+    if (n <= 0 || k <= 0 || k >= n) {
+    
+        cerr << "\nLỗi: cần 0 < k < n.\n";
+    
+        cin.ignore(10000, '\n');
+    
+        shortSleep();
+    
         return;
     }
 
